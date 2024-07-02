@@ -1,0 +1,280 @@
+* {
+    margin: 0;
+    box-sizing: border-box; /* added */
+}
+
+h1 {
+    color: #085f5f;
+    font-size: 8em;
+    margin: 50px auto 0 auto;
+    font-family: "Sacramento", cursive;
+    text-align: center; /* added */
+}
+
+body {
+    color: black;
+    text-align: center;
+    font-family: "Merriweather", serif;
+    margin: 0; /* added */
+}
+
+h2 {
+    color: #085f5f;
+    font-family: "Montserrat", sans-serif;
+    font-size: 4rem;
+    font-weight: normal;
+    
+    margin: 0; /* added */
+}
+
+.container-1 {
+    background-color: #66bfbf;
+    position: relative;
+    padding-top: 120px;
+    width: 100vw;
+}
+
+.upper-cloud {
+    position: absolute;
+    right: 300px;
+    top: 100px;
+    height: 100px;
+    width: 300px;
+}
+
+.lower-cloud {
+    position: absolute;
+    left: 250px;
+    bottom: 300px;
+    height: 100px;
+    width: 300px;
+}
+
+.pro {
+    text-decoration: underline;
+}
+
+.mountain {
+    width: 900px;
+    height: 600px;
+    
+}
+
+.container-2 {
+    margin: 100px 0;
+    text-align: center; /* added */
+
+}
+
+.img {
+    width: 300px;
+    margin: 0 auto; /* added */
+}
+
+.heading {
+    font-family: "Gideon Roman", serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0; /* added */
+}
+
+p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    line-height: 20px;
+    padding: 18px 20px 18px 20px;
+    margin: 0; /* added */
+}
+
+hr {
+    
+    width: 8%;
+    height: 4px;
+    border-top: 20px dotted #9eefef;
+    margin: 0 auto; /* added */
+}
+
+.skills {
+     text-align: center; /* added */
+     
+}
+
+.computer {
+    width: 300px;
+    margin: 0 auto; /* added */
+}
+
+.Design {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    color: #085f5f;
+    margin: 0; /* added */
+}
+
+.typing {
+    line-height: 20px;
+    text-align: center;
+    
+}
+
+.coding.Design {
+    margin-bottom: 90px;
+}
+
+.btn {
+    background: #468585;
+    border-radius: 8px;
+    color: #ffffff;
+    font-family: sans-serif;
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    font-size: 30px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    
+   
+}
+
+.pop {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 80px;
+    margin: 0; /* added */
+}
+
+.bottomcontainer {
+    padding: 80px 0px 50px;
+    margin: 80px;
+    text-align: center; /* added */
+}
+
+a {
+    color: #11999e;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 10px 20px;
+    text-decoration: none;
+    font-size: 2rem;
+}
+
+a:hover {
+    cursor: pointer;
+}
+
+.copyright {
+    color: black;
+    font-size: 2rem;
+    padding: 20px 0;
+    margin: 0; /* added */
+}
+
+.chillis{
+    padding-bottom: 100px;
+    padding-top: 100px;
+}
+
+.last{
+    padding-top: 100px;
+}
+
+/* Media Queries */
+
+/* For screens with a maximum width of 768px (tablets and smaller) */
+@media only screen and (max-width: 768px) {
+    /* Adjust font sizes and margins */
+    h1 {
+        font-size: 4em;
+    }
+    h2 {
+        font-size: 2rem;
+    }
+    p {
+        font-size: 24px;
+    }
+   .container-1 {
+        padding-top: 60px;
+        width: 100vh;
+    }
+   .upper-cloud {
+        right: 5px;
+        top: 50px;
+        
+    }
+  .lower-cloud {
+        left: 100px;
+        bottom: 500px;
+
+    }
+  .img {
+        width: 50px;
+    }
+  .computer {
+        width: 200px;
+    }
+  .btn {
+        font-size: 20px;
+        padding: 5px 10px;
+    }
+    .mountain{
+        width: 100vh;
+    }
+
+    body{
+display: grid;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+   .container-1 {
+       padding-top: 150px;
+     }
+   .upper-cloud {
+       right: 400px;
+       top: 150px;
+     }
+   .lower-cloud {
+       left: 350px;
+       bottom: 350px;
+     }
+   .mountain {
+       width: 1200px;
+       height: 800px;
+     }
+   .img {
+       width: 400px;
+     }
+   .skills {
+       margin-top: 300px;
+     }
+   .bottomcontainer {
+       padding: 100px 0px 70px;
+       margin: 100px;
+     }
+}
+
+/* For medium screens */
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
+   .container-1 {
+       padding-top: 100px;
+       width: 800px;
+     }
+   .upper-cloud {
+       right: 300px;
+       top: 120px;
+     }
+   .lower-cloud {
+       left: 250px;
+       bottom: 300px;
+     }
+   .mountain {
+       width: 900px;
+       height: 600px;
+     }
+   .img {
+       width: 300px;
+     }
+   .skills {
+       margin-top: 200px;
+     }
+   .bottomcontainer {
+       padding: 80px 0px 50px;
+       margin: 80;
+    }
+}
